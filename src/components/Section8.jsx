@@ -1,6 +1,6 @@
 import React from 'react'
 import style from "./Section8.module.css"
-import image from "./folder/1.png";
+// import image from "./folder/1.png";
 const Section8 = () => {
   return (
     <>
@@ -11,13 +11,29 @@ const Section8 = () => {
         </div>
 
         <div className={style.imgSec}>
-          <img src="./folder/1.png" className={style.imgSecs} alt="not found" />
+          <img
+            src="/public/folder/1.png"
+            className={style.imgSecs}
+            alt="not found"
+          />
 
-          <img src="./folder/2.png" className={style.imgSecs} alt="not found" />
+          <img
+            src="/public/folder/2.png"
+            className={style.imgSecs}
+            alt="not found"
+          />
 
-          <img src="./folder/3.png" className={style.imgSecs} alt="not found" />
+          <img
+            src="/public/folder/3.png"
+            className={style.imgSecs}
+            alt="not found"
+          />
 
-          <img src="./folder/4.png" className={style.imgSecs} alt="not found" />
+          <img
+            src="/public/folder/4.png"
+            className={style.imgSecs}
+            alt="not found"
+          />
         </div>
       </section>
     </>
