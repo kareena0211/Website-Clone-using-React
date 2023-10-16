@@ -2,7 +2,7 @@ import React from "react";
 import style from "./Section7.module.css";
 const Section7 = () => {
   return (
-    <>
+    <div className='important'>
       <div className={style.featurecont0}>
         <div className={style.imgcont0}>
           <img
@@ -19,7 +19,7 @@ const Section7 = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

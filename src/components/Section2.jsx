@@ -3,7 +3,7 @@ import style from "./Section2.module.css"
 
 const Section2 = () => {
   return (
-    <>
+    <div className='important'>
       <div className={style.maincontainer}>
         <div className={style.maincontainer1}>
           <h1 className={style.heading}>Design confidently.</h1>
@@ -21,7 +21,7 @@ const Section2 = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

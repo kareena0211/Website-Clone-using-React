@@ -2,7 +2,7 @@ import React from 'react'
 import style from "./Section3.module.css"
 const Section3 = () => {
   return (
-    <>
+    <div className='important'>
       <div className={style.sponcor}>
         <p className={style.paragraph}>
           The world's best companies rely on UsabilityHub to make better design
@@ -46,7 +46,7 @@ const Section3 = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

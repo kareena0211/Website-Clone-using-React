@@ -10,3 +10,8 @@
   font-family: "Playfair Display", serif;
   font-family: "Poppins", sans-serif;
 }
+
+.important {
+  /* border: 2px solid darkblue; */
+  margin: auto 4rem ;
+}

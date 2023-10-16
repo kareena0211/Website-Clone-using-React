@@ -2,7 +2,7 @@ import React from 'react'
 import style from "./Section6.module.css"
 const Section6 = () => {
   return (
-    <>
+    <div className='important'>
       <div className={style.featurecont1}>
         <div className={style.data1}>
           <h4 className={style.head41data}>Optimisation for</h4>
@@ -20,7 +20,7 @@ const Section6 = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

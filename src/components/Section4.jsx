@@ -1,88 +1,104 @@
-import React from "react";
-import style from "./Section4.module.css";
+import React from 'react'
+import style from "./Section4.module.css"
+
+
+const cardData = [
+  {
+    id: 1,
+    imageLink:
+      "https://priyanshu938.github.io/website-clone/assets/asset%2011.svg",
+    heading: "Card Sorting",
+    content: "Discover how people group and label information.",
+    buttonText: "Learn More",
+  },
+
+  {
+    id: 2,
+    imageLink:
+      "https://priyanshu938.github.io/website-clone/assets/asset%2013.svg",
+    heading: "Card Sorting",
+    content: "Discover how people group and label information.",
+    buttonText: "Learn More",
+  },
+
+  {
+    id: 3,
+    imageLink:
+      "https://priyanshu938.github.io/website-clone/assets/asset%2014.svg",
+    heading: "Card Sorting",
+    content: "Discover how people group and label information.",
+    buttonText: "Learn More",
+  },
+
+  {
+    id: 4,
+    imageLink:
+      "https://priyanshu938.github.io/website-clone/assets/asset%2014.svg",
+    heading: "Card Sorting",
+    content: "Discover how people group and label information.",
+    buttonText: "Learn More",
+  },
+
+  {
+    id: 5,
+    imageLink:
+      "https://priyanshu938.github.io/website-clone/assets/asset%2016.svg",
+    heading: "Card Sorting",
+    content: "Discover how people group and label information.",
+    buttonText: "Learn More",
+  },
+
+  {
+    id: 6,
+    imageLink:
+      "https://priyanshu938.github.io/website-clone/assets/asset%2017.svg",
+    heading: "Card Sorting",
+    content: "Discover how people group and label information.",
+    buttonText: "Learn More",
+  },
+];
+
+
+
 const Section4 = () => {
   return (
     <>
-      <div className={style.newMain}>
-        <div className={style.head2}>
-          <p>Your user research Swiss Army knife</p>
+      <div className="important">
+        <div className={style.headCase}>
+          <h1 className={style.mainHeading}>
+            Your user research Swiss Army knife
+          </h1>
+          <button className={style.btn}>See All features </button>
         </div>
 
-        <div className={style.btn}>
-          <button>See all features</button>
-        </div>
+        <div className={style.cardCase}>
 
-        <div className={style.featuresArea}>
-          <div className={style.featuresCard}>
-            <img
-              src="https://priyanshu938.github.io/website-clone/assets/asset%2011.svg"
-              alt="not found"
-            />
-            <h3 className={style.head3}>Card Sorting</h3>
-            <p className={style.para1}>
-              Discover how people group and label information.
-            </p>
-            <button className={style.LearnMore}>Learn more</button>
-          </div>
-          <div className={style.featuresard}>
-            <img
-              src="https://priyanshu938.github.io/website-clone/assets/asset%2013.svg"
-              alt="not found"
-            />
-            <h3 className={style.head3}>Card Sorting</h3>
-            <p className={style.para1}>
-              Discover how people group and label information.
-            </p>
-            <button className={style.LearnMore}>Learn more</button>
-          </div>
-          <div className={style.featuresCard}>
-            <img
-              src="https://priyanshu938.github.io/website-clone/assets/asset%2014.svg"
-              alt="not found"
-            />
-            <h3 className={style.head3}>Card Sorting</h3>
-            <p className={style.para1}>
-              Discover how people group and label information.
-            </p>
-            <button className={style.LearnMore}>Learn more</button>
-          </div>
-          <div className={style.featuresCard}>
-            <img
-              src="https://priyanshu938.github.io/website-clone/assets/asset%2015.svg"
-              alt="not found"
-            />
-            <h3 className={style.head3}>Card Sorting</h3>
-            <p className={style.para1}>
-              Discover how people group and label information.
-            </p>
-            <button className={style.LearnMore}>Learn more</button>
-          </div>
-          <div className={style.featuresCard}>
-            <img
-              src="https://priyanshu938.github.io/website-clone/assets/asset%2016.svg"
-              alt="not found"
-            />
-            <h3 className={style.head3}>Card Sorting</h3>
-            <p className={style.para1}>
-              Discover how people group and label information.
-            </p>
-            <button className={style.LearnMore}>Learn more</button>
-          </div>
-          <div className={style.featuresCard}>
-            <img
-              src="https://priyanshu938.github.io/website-clone/assets/asset%2017.svg"
-              alt="not found"
-            />
-            <h3 className={style.head3}>Card Sorting</h3>
-            <p className={style.para1}>
-              Discover how people group and label information.
-            </p>
-            <button className={style.LearnMore}>Learn more</button>
-          </div>
+
+          {
+            cardData.map(({id, imageLink ,heading , content, buttonText}) => {
+              return (
+                <div className={style.card} key={id}>
+                  <img src={imageLink} className={style.cardImage} />
+                  <h2 style ={{ color: "#183b56"}}>{heading}</h2>
+                  <p className={style.cardContent}>{content}</p>
+                  <button className={style.cardBtn}>{buttonText}</button>
+                </div>
+              );
+            })
+          }
+
+
+
+
+
+
+
+
+
         </div>
       </div>
     </>
   );
-};
+}
 
-export default Section4;
+export default Section4

@@ -3,7 +3,7 @@ import style from "./Section8.module.css"
 // import image from "./folder/1.png";
 const Section8 = () => {
   return (
-    <>
+    <div className='important'>
       <section>
         <div className={style.sec}>
           <h2 className={style.headg}>One platform, endless possibilities</h2>
@@ -36,7 +36,7 @@ const Section8 = () => {
           />
         </div>
       </section>
-    </>
+    </div>
   );
 }
 

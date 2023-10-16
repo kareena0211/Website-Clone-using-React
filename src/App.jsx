@@ -1,5 +1,4 @@
 import "./App.css";
-import Important from "./components/Important";
 import Navbar from "./components/Navbar";
 import Section1 from "./components/Section1";
 import Section2 from "./components/Section2";
@@ -14,7 +13,6 @@ import Section9 from "./components/Section9";
 function App() {
   return <>
     <Navbar/>
-    {/* <Important/> */}
     <Section1/>
     <Section2/>
     <Section3/>
