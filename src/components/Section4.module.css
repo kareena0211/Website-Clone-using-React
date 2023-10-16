@@ -58,7 +58,7 @@
   background-color: #fff;
 }
 
-.btn ,.cardBtn:hover {
+.btn:hover , .cardBtn:hover {
   color: #2294ed;
   font-weight: bold;
   border-color: #2294ed;
