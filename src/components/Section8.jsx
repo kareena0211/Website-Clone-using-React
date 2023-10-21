@@ -12,25 +12,25 @@ const Section8 = () => {
 
         <div className={style.imgSec}>
           <img
-            src="/public/folder/1.png"
+            src="./folder/1.png"
             className={style.imgSecs}
             alt="not found"
           />
 
           <img
-            src="/public/folder/2.png"
+            src="./folder/2.png"
             className={style.imgSecs}
             alt="not found"
           />
 
           <img
-            src="/public/folder/3.png"
+            src="./folder/3.png"
             className={style.imgSecs}
             alt="not found"
           />
 
           <img
-            src="/public/folder/4.png"
+            src="./folder/4.png"
             className={style.imgSecs}
             alt="not found"
           />
