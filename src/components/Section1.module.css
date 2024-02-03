@@ -1,12 +1,10 @@
-
-
 .main {
   /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 51px;
-  width: 1180px;
+  /* width: 1180px; */
   margin-top: 20px;
   padding: 0 20px 0 20px;
 }
@@ -14,12 +12,12 @@
 .main1 {
   /* border: 2px solid black; */
   height: 36.8125px;
-  width: 200px;
+  /* width: 200px; */
 }
 
 .img1 {
   height: 36.8125px;
-  width: 200px;
+  /* width: 200px; */
 }
 
 ul {
@@ -31,7 +29,7 @@ ul {
   font-size: 1rem;
   color: #183b56;
   height: 25px;
-  width: 70.4219px;
+  /* width: 70.4219px; */
   text-decoration: none solid rgb(24, 59, 86);
   text-align: left;
   cursor: pointer;
@@ -42,7 +40,7 @@ ul {
 .buttonSignin {
   cursor: pointer;
   height: 51px;
-  width: 103.891px;
+  /* width: 103.891px; */
   border: 1px solid #577592;
   padding: 12px 24px 12px 24px;
   background-color: #ffffff;
@@ -60,7 +58,7 @@ ul {
 
 .buttonSignup {
   height: 49px;
-  width: 108.516px;
+  /* width: 108.516px; */
   padding: 12px 24px 12px 24px;
   background-color: #2294ed;
   font-size: 1rem;
@@ -74,4 +72,3 @@ ul {
 .buttonSignup:hover {
   background-color: #306892;
 }
-

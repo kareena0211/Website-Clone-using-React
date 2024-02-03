@@ -1,9 +1,7 @@
-
-
 .featurecont1 {
   /* border: 2px solid red; */
   height: 518.594px;
-  width: 1180px;
+  /* width: 1180px; */
   padding: 0 20px 0 20px;
   display: flex;
   justify-content: center;
@@ -54,4 +52,3 @@
   line-height: 28.8px;
   color: #577592;
 }
-

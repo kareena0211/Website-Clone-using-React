@@ -1,10 +1,8 @@
-
-
 .box {
   /* border: 2px solid firebrick; */
   background-color: #226a81;
   height: 55px;
-  width: 1349px;
+  /* width: 1349px; */
   display: block;
 }
 
@@ -14,11 +12,10 @@
   justify-content: center;
   align-items: center;
   height: 55px;
-  width: 1140px;
+  /* width: 1140px; */
   padding: 15px 30px 15px 30px;
   font-size: 1rem;
   color: #ffffff;
   font-weight: 700;
   margin-left: 10%;
 }
-

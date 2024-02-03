@@ -1,16 +1,14 @@
-
-
 .sponcor {
   /* border: 2px solid black; */
   height: 131px;
-  width: 1180px;
+  /* width: 1180px; */
   padding: 0 20px 0 20px;
 }
 
 .paragraph {
   /* border: 2px solid forestgreen; */
   height: 25px;
-  width: 1140px;
+  /* width: 1140px; */
   font-size: 1rem;
   font-weight: 700;
   margin: 30px 0 30px 0;
@@ -23,7 +21,7 @@
   justify-content: space-evenly;
   /* border: 2px solid salmon; */
   height: 46px;
-  width: 1140px;
+  /* width: 1140px; */
 }
 
 .logo1 {
@@ -33,31 +31,32 @@
 
 .logo2 {
   height: 46px;
-  width: 105.312px;
+  /* width: 105.312px; */
 }
 
 .logo3 {
   height: 46px;
-  width: 169.469px;
+  /* width: 169.469px; */
 }
 
 .logo4 {
   height: 46px;
-  width: 145.25px;
+  /* width: 145.25px; */
 }
 
 .logo5 {
   height: 46px;
-  width: 44.7812px;
+  /* width: 44.7812px; */
 }
 
 .logo6 {
-  height: 46px;
-  width: 223.547px;
+  /* height: 46px; */
+  /* border: solid rebeccapurple; */
+  /* width: 223.547px; */
 }
 
 .logo7 {
   height: 46px;
-  width: 104.094px;
+  /* border: solid black; */
+  /* width: 104.094px; */
 }
-
